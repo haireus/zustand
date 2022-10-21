@@ -6,7 +6,6 @@ export const CourseForm = () => {
   const addCourse = useCourseStore((state) => state.addCourse);
 
   const [courseTitle, setCourseTitle] = useState("");
-  console.log("CourseForm Rendererd");
 
   const handleCourseSubmit = () => {
     if (!courseTitle) return alert("please add a course title");

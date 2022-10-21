@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { CourseForm } from "./CourseForm";
 import { CourseList } from "./CourseList";
+import { ListPost } from "./ListPost";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </h1>
       <CourseForm />
       <CourseList />
+      <ListPost />
     </div>
   );
 }
